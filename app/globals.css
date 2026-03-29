@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --primary: #FF6B00;
+  --primary-light: #FF8C3A;
+  --dark: #2D2D2D;
+  --cream: #F8F8F8;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #1A1A1A;
+  background: #F8F8F8;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary hover:bg-primary-dark text-white font-semibold px-6 py-3 rounded-lg transition-all duration-300 inline-flex items-center gap-2 shadow-lg hover:shadow-xl hover:-translate-y-0.5;
+  }
+  .btn-outline {
+    @apply border-2 border-white text-white hover:bg-white hover:text-dark font-semibold px-6 py-3 rounded-lg transition-all duration-300 inline-flex items-center gap-2;
+  }
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold text-dark mb-4;
+  }
+  .section-subtitle {
+    @apply text-gray-500 text-lg mb-12 max-w-2xl mx-auto;
+  }
+  .card-hover {
+    @apply transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #FF6B00;
+  border-radius: 3px;
+}
+
+/* Hero gradient overlay */
+.hero-overlay {
+  background: linear-gradient(135deg, rgba(29,29,29,0.85) 0%, rgba(45,45,45,0.6) 60%, rgba(255,107,0,0.3) 100%);
+}
