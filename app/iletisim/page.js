@@ -6,8 +6,8 @@ const contactInfo = [
   {
     icon: Phone,
     title: 'Telefon',
-    lines: ['0 (5XX) XXX XX XX', '0 (5XX) XXX XX XX'],
-    href: 'tel:+905XXXXXXXXX',
+    lines: ['0 (546) 770 25 83'],
+    href: 'tel:+905467702583',
   },
   {
     icon: Mail,
@@ -18,7 +18,7 @@ const contactInfo = [
   {
     icon: MapPin,
     title: 'Adres',
-    lines: ['Örnek Mahallesi, Örnek Sokak No:1', 'İstanbul, Türkiye'],
+    lines: ['Kuruçeşme Çk No:5, Yeni Mahalle', '34815 Beykoz/İstanbul'],
     href: '#',
   },
   {
@@ -81,7 +81,7 @@ export default function IletisimPage() {
 
             {/* WhatsApp Card */}
             <a
-              href="https://wa.me/905XXXXXXXXX?text=Merhaba%2C%20ücretsiz%20keşif%20talep%20ediyorum."
+              href="https://wa.me/905467702583?text=Merhaba%2C%20ücretsiz%20keşif%20talep%20ediyorum."
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-4 bg-green-500 hover:bg-green-600 rounded-2xl p-5 transition-colors"
@@ -112,21 +112,22 @@ export default function IletisimPage() {
 
         {/* Map Placeholder */}
         <div className="mt-12 bg-white rounded-3xl overflow-hidden shadow-sm">
-          <div className="h-80 bg-gray-100 flex items-center justify-center relative">
-            <div className="text-center">
-              <MapPin size={48} className="text-primary mx-auto mb-3" />
-              <p className="text-gray-500 font-medium">Harita Yükleniyor</p>
-              <p className="text-gray-400 text-sm">Örnek Mahallesi, Örnek Sokak No:1, İstanbul</p>
-            </div>
-            {/* Embed placeholder - replace with real Google Maps iframe */}
-            <div className="absolute inset-0 opacity-0 pointer-events-none">
-              {/* <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="100%" style={{border:0}} allowFullScreen loading="lazy"></iframe> */}
-            </div>
+          <div className="h-80 relative">
+            <iframe
+              src="https://www.google.com/maps?q=Kuru%C3%A7e%C5%9Fme+%C3%87k+No:5,+Yeni+Mahalle,+34815+Beykoz%2F%C4%B0stanbul&output=embed"
+              width="100%"
+              height="100%"
+              style={{border:0}}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="YAZ Gölgelendirme Konum"
+            ></iframe>
           </div>
           <div className="p-6 border-t border-gray-100">
             <p className="text-sm text-gray-500 text-center">
               Adresimizi Google Haritalar üzerinden görüntülemek için{' '}
-              <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" className="text-primary font-medium hover:underline">
+              <a href="https://maps.app.goo.gl/8mKJLr7eTs7ivA5B8" target="_blank" rel="noopener noreferrer" className="text-primary font-medium hover:underline">
                 buraya tıklayın
               </a>
             </p>

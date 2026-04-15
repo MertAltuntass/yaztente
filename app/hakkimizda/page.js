@@ -31,12 +31,6 @@ const values = [
   },
 ]
 
-const team = [
-  { name: 'Lorem Ipsum', role: 'Genel Müdür', img: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&q=80' },
-  { name: 'Lorem Ipsum', role: 'Tasarım Direktörü', img: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300&q=80' },
-  { name: 'Lorem Ipsum', role: 'Montaj Şefi', img: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&q=80' },
-  { name: 'Lorem Ipsum', role: 'Müşteri İlişkileri', img: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&q=80' },
-]
 
 export default function HakkimizdaPage() {
   return (
@@ -127,27 +121,6 @@ export default function HakkimizdaPage() {
         </div>
       </section>
 
-      {/* Team */}
-      <section className="py-20 bg-cream">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-14">
-            <span className="text-primary font-semibold text-sm tracking-widest uppercase">Ekibimiz</span>
-            <h2 className="section-title mt-2">Uzman Kadromuz</h2>
-            <p className="section-subtitle">Deneyimli ve tutkulu ekibimizle hizmetinizdeyiz</p>
-          </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            {team.map((m) => (
-              <div key={m.name} className="text-center group">
-                <div className="overflow-hidden rounded-2xl mb-4 shadow-lg">
-                  <img src={m.img} alt={m.name} className="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300" />
-                </div>
-                <h3 className="font-bold text-dark">{m.name}</h3>
-                <p className="text-primary text-sm font-medium">{m.role}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
     </div>
   )
 }

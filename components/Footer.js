@@ -87,9 +87,9 @@ export default function Footer() {
             </h3>
             <ul className="space-y-4">
               <li>
-                <a href="tel:+905XXXXXXXXX" className="flex items-start gap-3 text-gray-400 hover:text-primary transition-colors text-sm">
+                <a href="tel:+905467702583" className="flex items-start gap-3 text-gray-400 hover:text-primary transition-colors text-sm">
                   <Phone size={18} className="text-primary mt-0.5 shrink-0" />
-                  <span>0 (5XX) XXX XX XX</span>
+                  <span>0 (546) 770 25 83</span>
                 </a>
               </li>
               <li>
@@ -101,12 +101,12 @@ export default function Footer() {
               <li>
                 <div className="flex items-start gap-3 text-gray-400 text-sm">
                   <MapPin size={18} className="text-primary mt-0.5 shrink-0" />
-                  <span>Örnek Mahallesi, Örnek Sokak No:1<br />İstanbul, Türkiye</span>
+                  <span>Kuruçeşme Çk No:5, Yeni Mahalle<br />34815 Beykoz/İstanbul</span>
                 </div>
               </li>
             </ul>
             <a
-              href="https://wa.me/905XXXXXXXXX?text=Merhaba%2C%20bilgi%20almak%20istiyorum."
+              href="https://wa.me/905467702583?text=Merhaba%2C%20bilgi%20almak%20istiyorum."
               target="_blank"
               rel="noopener noreferrer"
               className="mt-5 inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white text-sm font-medium px-4 py-2.5 rounded-lg transition-colors"
