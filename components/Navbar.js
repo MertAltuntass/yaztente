@@ -9,6 +9,7 @@ const navLinks = [
   { href: '/urunler', label: 'Ürünler' },
   { href: '/galeri', label: 'Galeri' },
   { href: '/hakkimizda', label: 'Hakkımızda' },
+  { href: '/blog', label: 'Blog' },
   { href: '/iletisim', label: 'İletişim' },
 ]
 
@@ -56,14 +57,14 @@ export default function Navbar() {
           {/* CTA Button */}
           <div className="hidden md:flex items-center gap-4">
             <a
-              href="tel:+905XXXXXXXXX"
+              href="tel:+905467702583"
               className="flex items-center gap-2 text-white hover:text-primary transition-colors text-sm"
             >
               <Phone size={16} />
-              <span>0 (5XX) XXX XX XX</span>
+              <span>0 (546) 770 25 83</span>
             </a>
             <a
-              href="https://wa.me/905XXXXXXXXX?text=Merhaba%2C%20gölgelendirme%20sistemleri%20hakkında%20bilgi%20almak%20istiyorum."
+              href="https://wa.me/905467702583?text=Merhaba%2C%20gölgelendirme%20sistemleri%20hakkında%20bilgi%20almak%20istiyorum."
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary text-sm py-2.5"
@@ -97,7 +98,7 @@ export default function Navbar() {
             </Link>
           ))}
           <a
-            href="https://wa.me/905XXXXXXXXX?text=Merhaba%2C%20gölgelendirme%20sistemleri%20hakkında%20bilgi%20almak%20istiyorum."
+            href="https://wa.me/905467702583?text=Merhaba%2C%20gölgelendirme%20sistemleri%20hakkında%20bilgi%20almak%20istiyorum."
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary mt-4 w-full justify-center"

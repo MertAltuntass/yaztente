@@ -7,21 +7,21 @@ const allProducts = [
   // Tente
   {
     category: 'tente',
-    image: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1562081208-418b67878d0f?w=600&q=80',
     title: 'Motorlu Kol Tente',
     description: 'Uzaktan kumanda ile açılıp kapanan, rüzgar sensörlü modern motorlu kol tente sistemleri.',
     href: '/urunler/tente',
   },
   {
     category: 'tente',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1725794440337-a8b6035c3a62?w=600&q=80',
     title: 'Manuel Kol Tente',
     description: 'Ekonomik ve kullanışlı manuel açma-kapama sistemiyle balkon ve teraslarınız için ideal.',
     href: '/urunler/tente',
   },
   {
     category: 'tente',
-    image: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1749867817713-4dc76f47dca4?w=600&q=80',
     title: 'Sabit Tente (Markiz)',
     description: 'Mağaza ve işyerleri için ideal, görsel cazibesi yüksek sabit markiz tente sistemleri.',
     href: '/urunler/tente',
@@ -29,21 +29,21 @@ const allProducts = [
   // Pergola
   {
     category: 'pergola',
-    image: 'https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1527359443443-84a48aec73d2?w=600&q=80',
     title: 'Biyoklimatik Pergola',
     description: 'Havalandırılabilir alüminyum kanatlarıyla dört mevsim kullanılan akıllı pergola sistemi.',
     href: '/urunler/pergola',
   },
   {
     category: 'pergola',
-    image: 'https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1562616195-8a3fda2721fb?w=600&q=80',
     title: 'Alüminyum Pergola',
     description: 'Dayanıklı alüminyum profil ve tente örtüsüyle şık ve fonksiyonel bahçe pergolası.',
     href: '/urunler/pergola',
   },
   {
     category: 'pergola',
-    image: 'https://images.unsplash.com/photo-1593696140826-c58b021acf8b?w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1696454596847-dda5f2dc0555?w=600&q=80',
     title: 'Çatı Pergola',
     description: 'Polikarbonat veya cam çatı seçenekleriyle yağmurlu havalarda da kullanabileceğiniz pergola.',
     href: '/urunler/pergola',
@@ -51,21 +51,21 @@ const allProducts = [
   // Diğer
   {
     category: 'diger',
-    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1445264755539-41ee51f9e8f1?w=600&q=80',
     title: 'Bahçe Güneşliği',
     description: 'Büyük alanlara uygun, yüksek UV koruması sunan şemsiye tipi güneşlik sistemleri.',
     href: '/urunler/diger',
   },
   {
     category: 'diger',
-    image: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1535918742955-c0320061e1a0?w=600&q=80',
     title: 'Branda Sistemleri',
     description: 'Depo, garaj ve ticari alanlara uygun dayanıklı branda ve kapı sistemleri.',
     href: '/urunler/diger',
   },
   {
     category: 'diger',
-    image: 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1758799012717-4a58ccf9247b?w=600&q=80',
     title: 'Cam Balkon',
     description: 'Isıtmalı cam balkon ve veranda sistemleriyle balkonunuzu dört mevsim yaşam alanına dönüştürün.',
     href: '/urunler/diger',
@@ -88,7 +88,7 @@ export default function UrunlerPage() {
     <div className="min-h-screen bg-cream">
       {/* Header */}
       <div className="bg-dark pt-32 pb-16 relative overflow-hidden">
-        <div className="absolute inset-0 opacity-20" style={{backgroundImage: 'url(https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1920&q=80)', backgroundSize: 'cover', backgroundPosition: 'center'}} />
+        <div className="absolute inset-0 opacity-20" style={{backgroundImage: 'url(https://images.unsplash.com/photo-1749867817713-4dc76f47dca4?w=1920&q=80)', backgroundSize: 'cover', backgroundPosition: 'center'}} />
         <div className="absolute inset-0 bg-dark/80" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <span className="text-primary font-semibold text-sm tracking-widest uppercase">Ürünlerimiz</span>
@@ -148,7 +148,7 @@ export default function UrunlerPage() {
             Listede görmediğiniz bir sistem mi arıyorsunuz? Uzman ekibimizle iletişime geçin, size özel teklif hazırlayalım.
           </p>
           <a
-            href="https://wa.me/905XXXXXXXXX?text=Merhaba%2C%20ürün%20hakkında%20bilgi%20almak%20istiyorum."
+            href="https://wa.me/905467702583?text=Merhaba%2C%20ürün%20hakkında%20bilgi%20almak%20istiyorum."
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary"

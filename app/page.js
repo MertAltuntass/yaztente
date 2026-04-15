@@ -111,7 +111,7 @@ export default function HomePage() {
                 ))}
               </div>
               <a
-                href="https://wa.me/905XXXXXXXXX?text=Merhaba%2C%20bilgi%20almak%20istiyorum."
+                href="https://wa.me/905467702583?text=Merhaba%2C%20bilgi%20almak%20istiyorum."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary"
@@ -185,7 +185,7 @@ export default function HomePage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://wa.me/905XXXXXXXXX?text=Merhaba%2C%20ücretsiz%20keşif%20talep%20ediyorum."
+              href="https://wa.me/905467702583?text=Merhaba%2C%20ücretsiz%20keşif%20talep%20ediyorum."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 bg-white text-primary font-bold px-8 py-4 rounded-xl hover:bg-gray-100 transition-colors shadow-lg"
@@ -196,7 +196,7 @@ export default function HomePage() {
               WhatsApp ile Yazın
             </a>
             <a
-              href="tel:+905XXXXXXXXX"
+              href="tel:+905467702583"
               className="inline-flex items-center justify-center gap-2 border-2 border-white text-white font-bold px-8 py-4 rounded-xl hover:bg-white/10 transition-colors"
             >
               <Phone size={20} />
