@@ -148,7 +148,7 @@ export default function UrunlerPage() {
             Listede görmediğiniz bir sistem mi arıyorsunuz? Uzman ekibimizle iletişime geçin, size özel teklif hazırlayalım.
           </p>
           <a
-            href="https://wa.me/905XXXXXXXXX?text=Merhaba%2C%20ürün%20hakkında%20bilgi%20almak%20istiyorum."
+            href="https://wa.me/905467702583?text=Merhaba%2C%20ürün%20hakkında%20bilgi%20almak%20istiyorum."
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary"

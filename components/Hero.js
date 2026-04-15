@@ -76,7 +76,7 @@ export default function Hero() {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 mb-12">
             <a
-              href="https://wa.me/905XXXXXXXXX?text=Merhaba%2C%20ücretsiz%20teklif%20almak%20istiyorum."
+              href="https://wa.me/905467702583?text=Merhaba%2C%20ücretsiz%20teklif%20almak%20istiyorum."
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary text-base px-8 py-4"

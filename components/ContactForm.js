@@ -19,7 +19,7 @@ export default function ContactForm() {
   const handleSubmit = (e) => {
     e.preventDefault()
     const text = `Merhaba, ben ${form.name}.%0A📞 Telefon: ${form.phone}%0A📧 E-posta: ${form.email}%0A🏷️ Ürün: ${form.product}%0A💬 Mesaj: ${form.message}`
-    window.open(`https://wa.me/905XXXXXXXXX?text=${text}`, '_blank')
+    window.open(`https://wa.me/905467702583?text=${text}`, '_blank')
     setSent(true)
     setTimeout(() => setSent(false), 5000)
   }
@@ -47,7 +47,7 @@ export default function ContactForm() {
             required
             value={form.phone}
             onChange={handleChange}
-            placeholder="0 (5XX) XXX XX XX"
+            placeholder="0 (546) 770 25 83"
             className="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all"
           />
         </div>
