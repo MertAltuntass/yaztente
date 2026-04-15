@@ -148,7 +148,7 @@ export default function GaleriPage() {
           <span className="text-primary font-semibold text-sm tracking-widest uppercase">Portfolyo</span>
           <h1 className="text-4xl md:text-5xl font-black text-white mt-2 mb-4">Proje Galerimiz</h1>
           <p className="text-gray-300 max-w-2xl mx-auto text-lg">
-            İstanbul'da tamamladığımız tente, pergola ve gölgelendirme projelerinden seçmeler
+            İstanbul&apos;da tamamladığımız tente, pergola ve gölgelendirme projelerinden seçmeler
           </p>
           <div className="flex items-center justify-center gap-2 mt-4 text-sm text-gray-400">
             <Link href="/" className="hover:text-primary transition-colors">Ana Sayfa</Link>
@@ -225,7 +225,7 @@ export default function GaleriPage() {
         <div className="mt-16 bg-dark rounded-3xl p-10 text-center">
           <h2 className="text-2xl md:text-3xl font-bold text-white mb-3">Projenizi Hayata Geçirelim</h2>
           <p className="text-gray-400 mb-6 max-w-xl mx-auto">
-            Beykoz merkezimizden İstanbul'un tüm ilçelerine ücretsiz keşif ve montaj hizmeti sunuyoruz.
+            Beykoz merkezimizden İstanbul&apos;un tüm ilçelerine ücretsiz keşif ve montaj hizmeti sunuyoruz.
           </p>
           <a
             href="https://wa.me/905467702583?text=Merhaba%2C%20proje%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum."
