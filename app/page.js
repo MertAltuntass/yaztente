@@ -6,25 +6,32 @@ import { Shield, Zap, Award, Phone, ArrowRight, CheckCircle } from 'lucide-react
 
 const products = [
   {
-    image: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1562081208-418b67878d0f?w=800&q=80',
     title: 'Tente Sistemleri',
     description: 'Motorlu ve manuel tente seçenekleriyle balkon, teras ve bahçelerinize konfor katın. UV korumalı kumaş seçenekleri.',
     href: '/urunler/tente',
-    features: ['Motorlu & Manuel Seçenekler', 'UV Korumalı Kumaş', '5 Yıl Garanti', 'Ücretsiz Montaj'],
+    features: ['Motorlu & Manuel Seçenekler', 'UV Korumalı Kumaş', '1 Yıl Garanti', 'Ücretsiz Montaj'],
   },
   {
-    image: 'https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1527359443443-84a48aec73d2?w=800&q=80',
     title: 'Pergola & Alüminyum Sistemler',
     description: 'Biyoklimatik pergola ve alüminyum sistemlerle dış mekanlarınızı dört mevsim kullanın.',
     href: '/urunler/pergola',
     features: ['Biyoklimatik Kanatlar', 'Sağlam Alüminyum Profil', 'Entegre Aydınlatma', 'Rüzgar Sensörü'],
   },
   {
-    image: 'https://images.unsplash.com/photo-1593696140826-c58b021acf8b?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1445264755539-41ee51f9e8f1?w=800&q=80',
     title: 'Diğer Gölge Sistemleri',
     description: 'Güneşlik, branda, cam balkon ve daha fazlası. Her ihtiyaca özel profesyonel çözümler.',
     href: '/urunler/diger',
     features: ['Güneşlik Sistemleri', 'Branda Çözümleri', 'Cam Balkon', 'Özel Tasarım'],
+  },
+  {
+    image: '/x1.jpeg',
+    title: 'Kış Bahçesi',
+    description: 'Alüminyum profil ve ısıcam sistemiyle dört mevsim kullanılabilen kış bahçesi çözümleri.',
+    href: '/urunler/kis-bahcesi',
+    features: ['Alüminyum Profil Sistem', 'Isıcam Seçeneği', 'Havalandırma Penceresi', 'Özel Tasarım'],
   },
 ]
 
@@ -41,8 +48,8 @@ const features = [
   },
   {
     icon: Award,
-    title: '5 Yıl Garanti',
-    description: 'Tüm ürünlerimizde 5 yıl malzeme ve işçilik garantisi sunuyoruz.',
+    title: '1 Yıl Garanti',
+    description: 'Tüm ürünlerimizde 1 yıl malzeme ve işçilik garantisi sunuyoruz.',
   },
   {
     icon: Phone,
@@ -52,12 +59,12 @@ const features = [
 ]
 
 const galleryImages = [
-  'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=80',
-  'https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=600&q=80',
-  'https://images.unsplash.com/photo-1593696140826-c58b021acf8b?w=600&q=80',
-  'https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=600&q=80',
-  'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80',
-  'https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=600&q=80',
+  'https://images.unsplash.com/photo-1562081208-418b67878d0f?w=600&q=80',
+  'https://images.unsplash.com/photo-1725794440337-a8b6035c3a62?w=600&q=80',
+  'https://images.unsplash.com/photo-1527359443443-84a48aec73d2?w=600&q=80',
+  'https://images.unsplash.com/photo-1562616195-8a3fda2721fb?w=600&q=80',
+  'https://images.unsplash.com/photo-1445264755539-41ee51f9e8f1?w=600&q=80',
+  'https://images.unsplash.com/photo-1758799012717-4a58ccf9247b?w=600&q=80',
 ]
 
 export default function HomePage() {
@@ -76,7 +83,7 @@ export default function HomePage() {
               Her mekan için özel tasarlanmış, kaliteli malzemelerle üretilen gölgelendirme sistemleri
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {products.map((p) => (
               <ProductCard key={p.title} {...p} />
             ))}

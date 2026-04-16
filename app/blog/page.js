@@ -15,7 +15,7 @@ export const articles = [
     category: 'Tente',
     readTime: '5 dk',
     date: '2025-03-10',
-    image: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1562081208-418b67878d0f?w=800&q=80',
   },
   {
     slug: 'biyoklimatik-pergola-nedir',
@@ -24,7 +24,7 @@ export const articles = [
     category: 'Pergola',
     readTime: '6 dk',
     date: '2025-02-20',
-    image: 'https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1527359443443-84a48aec73d2?w=800&q=80',
   },
   {
     slug: 'motorlu-tente-mi-manuel-tente-mi',
@@ -33,7 +33,7 @@ export const articles = [
     category: 'Tente',
     readTime: '4 dk',
     date: '2025-01-15',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1725794440337-a8b6035c3a62?w=800&q=80',
   },
   {
     slug: 'cam-balkon-sistemi-rehberi',
@@ -42,7 +42,7 @@ export const articles = [
     category: 'Cam Sistemler',
     readTime: '5 dk',
     date: '2025-01-05',
-    image: 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1758799012717-4a58ccf9247b?w=800&q=80',
   },
   {
     slug: 'istanbul-tente-pergola-montaji',
@@ -51,7 +51,7 @@ export const articles = [
     category: 'Rehber',
     readTime: '7 dk',
     date: '2024-12-20',
-    image: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1562616195-8a3fda2721fb?w=800&q=80',
   },
 ]
 

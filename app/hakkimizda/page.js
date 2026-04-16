@@ -77,10 +77,10 @@ export default function HakkimizdaPage() {
               </Link>
             </div>
             <div className="grid grid-cols-2 gap-4">
-              <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=500&q=80" alt="Proje" className="rounded-2xl h-56 w-full object-cover" />
-              <img src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=500&q=80" alt="Proje" className="rounded-2xl h-56 w-full object-cover mt-8" />
-              <img src="https://images.unsplash.com/photo-1593696140826-c58b021acf8b?w=500&q=80" alt="Proje" className="rounded-2xl h-56 w-full object-cover -mt-8" />
-              <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=500&q=80" alt="Proje" className="rounded-2xl h-56 w-full object-cover" />
+              <img src="https://images.unsplash.com/photo-1562081208-418b67878d0f?w=500&q=80" alt="Motorlu Kol Tente" className="rounded-2xl h-56 w-full object-cover" />
+              <img src="https://images.unsplash.com/photo-1527359443443-84a48aec73d2?w=500&q=80" alt="Biyoklimatik Pergola" className="rounded-2xl h-56 w-full object-cover mt-8" />
+              <img src="https://images.unsplash.com/photo-1445264755539-41ee51f9e8f1?w=500&q=80" alt="Bahçe Güneşliği" className="rounded-2xl h-56 w-full object-cover -mt-8" />
+              <img src="https://images.unsplash.com/photo-1758799012717-4a58ccf9247b?w=500&q=80" alt="Cam Balkon" className="rounded-2xl h-56 w-full object-cover" />
             </div>
           </div>
         </div>

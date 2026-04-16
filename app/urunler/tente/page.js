@@ -33,7 +33,7 @@ const products = [
     image: 'https://images.unsplash.com/photo-1562081208-418b67878d0f?w=800&q=80',
     title: 'Motorlu Kol Tente',
     description: 'Uzaktan kumanda veya akıllı telefon uygulamasıyla tek tuşta açılıp kapanan motorlu kol tenteler; rüzgar ve güneş sensörü sayesinde hava koşullarına göre otomatik çalışır. Akıllı ev sistemleriyle entegre edilebilen bu tenteler, balkon ve teraslarınıza konfor ve modern bir görünüm katar.',
-    features: ['Motorlu Açma / Kapama', 'Rüzgar Sensörü', 'Güneş Sensörü', 'Uzaktan Kumanda', 'Akıllı Ev Uyumlu', '5 Yıl Garanti'],
+    features: ['Motorlu Açma / Kapama', 'Rüzgar Sensörü', 'Güneş Sensörü', 'Uzaktan Kumanda', 'Akıllı Ev Uyumlu', '1 Yıl Garanti'],
   },
   {
     image: 'https://images.unsplash.com/photo-1725794440337-a8b6035c3a62?w=800&q=80',

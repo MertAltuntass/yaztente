@@ -32,11 +32,11 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center">
             <Image
-              src="/logo.jpeg"
+              src="/logo.png"
               alt="YAZ Gölgelendirme Sistemleri"
               width={160}
               height={60}
-              className="h-14 w-auto object-contain"
+              className="h-16 w-auto object-contain"
               priority
             />
           </Link>
