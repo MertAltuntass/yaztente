@@ -12,8 +12,8 @@ const contactInfo = [
   {
     icon: Mail,
     title: 'E-Posta',
-    lines: ['info@yazgolgelendirme.com', 'satis@yazgolgelendirme.com'],
-    href: 'mailto:info@yazgolgelendirme.com',
+    lines: ['satis@yaztente.com.tr'],
+    href: 'mailto:satis@yaztente.com.tr',
   },
   {
     icon: MapPin,
@@ -24,7 +24,7 @@ const contactInfo = [
   {
     icon: Clock,
     title: 'Çalışma Saatleri',
-    lines: ['Pazartesi - Cumartesi: 09:00 - 18:00', 'Pazar: Kapalı'],
+    lines: ['7 Gün 24 Saat Hizmetinizdeyiz'],
     href: null,
   },
 ]

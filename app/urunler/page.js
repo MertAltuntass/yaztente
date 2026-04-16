@@ -48,6 +48,28 @@ const allProducts = [
     description: 'Polikarbonat veya cam çatı seçenekleriyle yağmurlu havalarda da kullanabileceğiniz pergola.',
     href: '/urunler/pergola',
   },
+  // Kış Bahçesi
+  {
+    category: 'kisbahcesi',
+    image: '/x1.jpeg',
+    title: 'Alüminyum Kış Bahçesi',
+    description: 'Dayanıklı alüminyum profil ve ısıcam ile dört mevsim konforlu kullanım.',
+    href: '/urunler/kis-bahcesi',
+  },
+  {
+    category: 'kisbahcesi',
+    image: '/x2.jpeg',
+    title: 'Çatı Camlı Kış Bahçesi',
+    description: 'Cam çatı sistemiyle doğal ışığı içeri alan, havalandırmalı kış bahçesi.',
+    href: '/urunler/kis-bahcesi',
+  },
+  {
+    category: 'kisbahcesi',
+    image: '/x3.jpeg',
+    title: 'Modern Kış Bahçesi',
+    description: 'Sürme ve açılır-kapanır cam sistemleriyle modern tasarım kış bahçesi.',
+    href: '/urunler/kis-bahcesi',
+  },
   // Diğer
   {
     category: 'diger',
@@ -77,6 +99,7 @@ const categories = [
   { id: 'tente', label: 'Tente Sistemleri' },
   { id: 'pergola', label: 'Pergola & Alüminyum' },
   { id: 'diger', label: 'Diğer Sistemler' },
+  { id: 'kisbahcesi', label: 'Kış Bahçesi' },
 ]
 
 export default function UrunlerPage() {
