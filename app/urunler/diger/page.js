@@ -1,3 +1,9 @@
+export const metadata = {
+  title: 'Güneşlik, Branda & Cam Balkon İstanbul | Yaz Tente',
+  description: 'İstanbul Beykoz\'da bahçe güneşliği, branda kapı sistemleri ve cam balkon montajı. Her mekan için profesyonel gölgelendirme çözümleri. Ücretsiz keşif: 0546 770 25 83.',
+  keywords: 'cam balkon sistemi İstanbul, bahçe güneşliği Beykoz, branda perde sistemi, veranda cam sistemi, balkon kapatma İstanbul',
+}
+
 import Link from 'next/link'
 import { ArrowRight, CheckCircle, Phone, ChevronDown } from 'lucide-react'
 
@@ -77,7 +83,7 @@ export default function DigerPage() {
             <div key={p.title} className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
               <div className={`${i % 2 === 1 ? 'lg:order-2' : ''}`}>
                 <div className="overflow-hidden rounded-2xl shadow-xl">
-                  <img src={p.image} alt={p.title} className="w-full h-80 object-cover hover:scale-105 transition-transform duration-500" />
+                  <img src={p.image} alt={`${p.title} Montajı İstanbul Beykoz - Yaz Tente`} loading="lazy" className="w-full h-80 object-cover hover:scale-105 transition-transform duration-500" />
                 </div>
               </div>
               <div className={`${i % 2 === 1 ? 'lg:order-1' : ''}`}>

@@ -2,8 +2,8 @@ import Link from 'next/link'
 import { Clock, ArrowRight, Tag } from 'lucide-react'
 
 export const metadata = {
-  title: 'Blog | Tente, Pergola ve Gölgelendirme Rehberi – YAZ Gölgelendirme',
-  description: 'Tente fiyatları, pergola seçimi, cam balkon sistemleri ve gölgelendirme çözümleri hakkında uzman rehberleri. YAZ Gölgelendirme blog sayfası.',
+  title: 'Tente & Pergola Blog Rehberi İstanbul | Yaz Tente',
+  description: 'Tente fiyatları, pergola seçimi, cam balkon ve kış bahçesi hakkında uzman rehberleri. İstanbul Beykoz YAZ Gölgelendirme blog sayfası.',
   keywords: 'tente rehberi, pergola nedir, balkon tentesi fiyatları, motorlu tente, cam balkon, gölgelendirme sistemi',
 }
 
@@ -15,7 +15,7 @@ export const articles = [
     category: 'Tente',
     readTime: '5 dk',
     date: '2025-03-10',
-    image: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1562081208-418b67878d0f?w=800&q=80',
   },
   {
     slug: 'biyoklimatik-pergola-nedir',
@@ -24,7 +24,7 @@ export const articles = [
     category: 'Pergola',
     readTime: '6 dk',
     date: '2025-02-20',
-    image: 'https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1527359443443-84a48aec73d2?w=800&q=80',
   },
   {
     slug: 'motorlu-tente-mi-manuel-tente-mi',
@@ -33,7 +33,7 @@ export const articles = [
     category: 'Tente',
     readTime: '4 dk',
     date: '2025-01-15',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1725794440337-a8b6035c3a62?w=800&q=80',
   },
   {
     slug: 'cam-balkon-sistemi-rehberi',
@@ -42,7 +42,7 @@ export const articles = [
     category: 'Cam Sistemler',
     readTime: '5 dk',
     date: '2025-01-05',
-    image: 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1758799012717-4a58ccf9247b?w=800&q=80',
   },
   {
     slug: 'istanbul-tente-pergola-montaji',
@@ -51,7 +51,7 @@ export const articles = [
     category: 'Rehber',
     readTime: '7 dk',
     date: '2024-12-20',
-    image: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1562616195-8a3fda2721fb?w=800&q=80',
   },
 ]
 
@@ -90,7 +90,7 @@ export default function BlogPage() {
         <Link href={`/blog/${featured.slug}`} className="group block mb-16">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-300">
             <div className="overflow-hidden h-72 lg:h-auto">
-              <img src={featured.image} alt={featured.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+              <img src={featured.image} alt={featured.title} loading="lazy" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
             </div>
             <div className="p-8 flex flex-col justify-center">
               <div className="flex items-center gap-3 mb-4">
@@ -111,7 +111,7 @@ export default function BlogPage() {
           {rest.map((article) => (
             <Link key={article.slug} href={`/blog/${article.slug}`} className="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-300">
               <div className="overflow-hidden h-48">
-                <img src={article.image} alt={article.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                <img src={article.image} alt={article.title} loading="lazy" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
               </div>
               <div className="p-5">
                 <div className="flex items-center gap-2 mb-3">

@@ -11,7 +11,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <Image
-              src="/logo.jpeg"
+              src="/logo.png"
               alt="YAZ Gölgelendirme Sistemleri"
               width={160}
               height={60}
@@ -46,6 +46,7 @@ export default function Footer() {
                 { href: '/urunler/diger', label: 'Güneşlik Sistemleri' },
                 { href: '/urunler/diger', label: 'Branda Sistemleri' },
                 { href: '/urunler/diger', label: 'Cam Balkon Sistemleri' },
+                { href: '/urunler/kis-bahcesi', label: 'Kış Bahçesi' },
               ].map((item) => (
                 <li key={item.label}>
                   <Link href={item.href} className="text-gray-400 hover:text-primary transition-colors text-sm flex items-center gap-2">
@@ -93,9 +94,9 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="mailto:info@yazgolgelendirme.com" className="flex items-start gap-3 text-gray-400 hover:text-primary transition-colors text-sm">
+                <a href="mailto:satis@yaztente.com.tr" className="flex items-start gap-3 text-gray-400 hover:text-primary transition-colors text-sm">
                   <Mail size={18} className="text-primary mt-0.5 shrink-0" />
-                  <span>info@yazgolgelendirme.com</span>
+                  <span>satis@yaztente.com.tr</span>
                 </a>
               </li>
               <li>

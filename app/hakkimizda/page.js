@@ -1,3 +1,9 @@
+export const metadata = {
+  title: 'Hakkımızda | Beykoz İstanbul Tente Firması - Yaz Tente',
+  description: '10 yılı aşkın tecrübesiyle İstanbul Beykoz\'un güvenilir tente ve pergola firması YAZ Gölgelendirme Sistemleri. 500+ tamamlanan proje, %100 müşteri memnuniyeti.',
+  keywords: 'İstanbul tente firmaları hakkımızda, Beykoz gölgelendirme şirketi, tente pergola uzmanları',
+}
+
 import Link from 'next/link'
 import { Award, Users, MapPin, TrendingUp, ArrowRight } from 'lucide-react'
 
@@ -77,10 +83,10 @@ export default function HakkimizdaPage() {
               </Link>
             </div>
             <div className="grid grid-cols-2 gap-4">
-              <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=500&q=80" alt="Proje" className="rounded-2xl h-56 w-full object-cover" />
-              <img src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=500&q=80" alt="Proje" className="rounded-2xl h-56 w-full object-cover mt-8" />
-              <img src="https://images.unsplash.com/photo-1593696140826-c58b021acf8b?w=500&q=80" alt="Proje" className="rounded-2xl h-56 w-full object-cover -mt-8" />
-              <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=500&q=80" alt="Proje" className="rounded-2xl h-56 w-full object-cover" />
+              <img src="https://images.unsplash.com/photo-1562081208-418b67878d0f?w=500&q=80" alt="Motorlu Kol Tente İstanbul Montajı" loading="lazy" className="rounded-2xl h-56 w-full object-cover" />
+              <img src="https://images.unsplash.com/photo-1527359443443-84a48aec73d2?w=500&q=80" alt="Biyoklimatik Pergola Beykoz" loading="lazy" className="rounded-2xl h-56 w-full object-cover mt-8" />
+              <img src="https://images.unsplash.com/photo-1445264755539-41ee51f9e8f1?w=500&q=80" alt="Bahçe Güneşliği Sistemi" loading="lazy" className="rounded-2xl h-56 w-full object-cover -mt-8" />
+              <img src="https://images.unsplash.com/photo-1758799012717-4a58ccf9247b?w=500&q=80" alt="Cam Balkon Sistemi İstanbul" loading="lazy" className="rounded-2xl h-56 w-full object-cover" />
             </div>
           </div>
         </div>

@@ -148,8 +148,9 @@ export function generateMetadata({ params }) {
   const article = articles.find((a) => a.slug === params.slug)
   if (!article) return {}
   return {
-    title: `${article.title} – YAZ Gölgelendirme Blog`,
-    description: article.excerpt,
+    title: `${article.title} | Beykoz İstanbul - Yaz Tente`,
+    description: `${article.excerpt} Ücretsiz keşif için hemen arayın: 0546 770 25 83.`,
+    keywords: `${article.category.toLowerCase()}, tente İstanbul, pergola Beykoz, gölgelendirme sistemi, YAZ Gölgelendirme`,
   }
 }
 
@@ -237,7 +238,7 @@ export default function ArticlePage({ params }) {
           {related.map((a) => (
             <Link key={a.slug} href={`/blog/${a.slug}`} className="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow">
               <div className="overflow-hidden h-40">
-                <img src={a.image} alt={a.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                <img src={a.image} alt={a.title} loading="lazy" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
               </div>
               <div className="p-4">
                 <span className={`text-xs font-semibold px-2 py-0.5 rounded-full ${categoryColors[a.category]}`}>{a.category}</span>

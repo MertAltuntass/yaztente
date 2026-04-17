@@ -48,6 +48,28 @@ const allProducts = [
     description: 'Polikarbonat veya cam çatı seçenekleriyle yağmurlu havalarda da kullanabileceğiniz pergola.',
     href: '/urunler/pergola',
   },
+  // Kış Bahçesi
+  {
+    category: 'kisbahcesi',
+    image: '/x1.jpeg',
+    title: 'Alüminyum Kış Bahçesi',
+    description: 'Dayanıklı alüminyum profil ve ısıcam ile dört mevsim konforlu kullanım.',
+    href: '/urunler/kis-bahcesi',
+  },
+  {
+    category: 'kisbahcesi',
+    image: '/x2.jpeg',
+    title: 'Çatı Camlı Kış Bahçesi',
+    description: 'Cam çatı sistemiyle doğal ışığı içeri alan, havalandırmalı kış bahçesi.',
+    href: '/urunler/kis-bahcesi',
+  },
+  {
+    category: 'kisbahcesi',
+    image: '/x3.jpeg',
+    title: 'Modern Kış Bahçesi',
+    description: 'Sürme ve açılır-kapanır cam sistemleriyle modern tasarım kış bahçesi.',
+    href: '/urunler/kis-bahcesi',
+  },
   // Diğer
   {
     category: 'diger',
@@ -77,6 +99,7 @@ const categories = [
   { id: 'tente', label: 'Tente Sistemleri' },
   { id: 'pergola', label: 'Pergola & Alüminyum' },
   { id: 'diger', label: 'Diğer Sistemler' },
+  { id: 'kisbahcesi', label: 'Kış Bahçesi' },
 ]
 
 export default function UrunlerPage() {
@@ -128,7 +151,7 @@ export default function UrunlerPage() {
           {filtered.map((p) => (
             <div key={p.title} className="card-hover bg-white rounded-2xl overflow-hidden shadow-md group">
               <div className="h-52 overflow-hidden">
-                <img src={p.image} alt={p.title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+                <img src={p.image} alt={p.title} loading="lazy" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
               </div>
               <div className="p-5">
                 <h3 className="font-bold text-dark text-lg mb-2">{p.title}</h3>

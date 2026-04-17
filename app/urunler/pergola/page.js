@@ -1,3 +1,9 @@
+export const metadata = {
+  title: 'Biyoklimatik & Alüminyum Pergola İstanbul | Yaz Tente',
+  description: 'İstanbul Beykoz\'da biyoklimatik pergola, alüminyum pergola ve cam çatılı pergola montajı. Dört mevsim dış mekan çözümleri için ücretsiz keşif: 0546 770 25 83.',
+  keywords: 'Beykoz pergola sistemleri, biyoklimatik pergola montajı İstanbul, alüminyum pergola fiyatları, cam çatılı pergola, motorlu pergola sistemi',
+}
+
 import Link from 'next/link'
 import { ArrowRight, CheckCircle, Phone, ChevronDown } from 'lucide-react'
 
@@ -77,7 +83,7 @@ export default function PergolaPage() {
             <div key={p.title} className={`grid grid-cols-1 lg:grid-cols-2 gap-10 items-center`}>
               <div className={`${i % 2 === 1 ? 'lg:order-2' : ''}`}>
                 <div className="overflow-hidden rounded-2xl shadow-xl">
-                  <img src={p.image} alt={p.title} className="w-full h-80 object-cover hover:scale-105 transition-transform duration-500" />
+                  <img src={p.image} alt={`${p.title} Montajı İstanbul Beykoz - Yaz Tente`} loading="lazy" className="w-full h-80 object-cover hover:scale-105 transition-transform duration-500" />
                 </div>
               </div>
               <div className={`${i % 2 === 1 ? 'lg:order-1' : ''}`}>

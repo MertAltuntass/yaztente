@@ -2,6 +2,136 @@ import Link from 'next/link'
 import ContactForm from '@/components/ContactForm'
 import { Phone, Mail, MapPin, Clock } from 'lucide-react'
 
+export const metadata = {
+  title: 'İletişim | Ücretsiz Tente Keşfi Beykoz - Yaz Tente',
+  description: 'Beykoz İstanbul\'da tente, pergola ve kış bahçesi montajı için ücretsiz keşif talebi oluşturun. Hemen arayın: 0546 770 25 83 veya WhatsApp ile yazın.',
+  keywords: 'tente keşif İstanbul, pergola teklif Beykoz, tente montaj iletişim, YAZ Gölgelendirme telefon',
+}
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'LocalBusiness',
+  '@id': 'https://yaztente.com.tr/#localbusiness',
+  name: 'Yaz Gölgelendirme Sistemleri',
+  alternateName: 'YAZ Tente',
+  description: 'İstanbul Beykoz merkezli profesyonel tente, biyoklimatik pergola, kış bahçesi ve cam balkon montaj firması. 10+ yıllık deneyim, 500+ tamamlanan proje.',
+  url: 'https://yaztente.com.tr',
+  telephone: '+90-546-770-25-83',
+  email: 'satis@yaztente.com.tr',
+  priceRange: '₺₺',
+  currenciesAccepted: 'TRY',
+  paymentAccepted: 'Nakit, Kredi Kartı, Havale',
+  image: {
+    '@type': 'ImageObject',
+    url: 'https://yaztente.com.tr/logo.png',
+    width: 320,
+    height: 120,
+  },
+  logo: {
+    '@type': 'ImageObject',
+    url: 'https://yaztente.com.tr/logo.png',
+    width: 320,
+    height: 120,
+  },
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: 'Kuruçeşme Çk No:5, Yeni Mahalle',
+    addressLocality: 'Beykoz',
+    addressRegion: 'İstanbul',
+    postalCode: '34815',
+    addressCountry: 'TR',
+  },
+  geo: {
+    '@type': 'GeoCoordinates',
+    latitude: 41.1082,
+    longitude: 29.0950,
+  },
+  openingHoursSpecification: [
+    {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+      opens: '08:00',
+      closes: '20:00',
+    },
+  ],
+  areaServed: [
+    { '@type': 'City', name: 'Beykoz' },
+    { '@type': 'City', name: 'Üsküdar' },
+    { '@type': 'City', name: 'Kadıköy' },
+    { '@type': 'City', name: 'Ataşehir' },
+    { '@type': 'City', name: 'Maltepe' },
+    { '@type': 'City', name: 'Sarıyer' },
+    { '@type': 'City', name: 'Beşiktaş' },
+    { '@type': 'City', name: 'Şişli' },
+    { '@type': 'City', name: 'Ümraniye' },
+    { '@type': 'City', name: 'Çekmeköy' },
+    { '@type': 'State', name: 'İstanbul' },
+  ],
+  hasOfferCatalog: {
+    '@type': 'OfferCatalog',
+    name: 'Gölgelendirme Sistemleri',
+    itemListElement: [
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: 'Motorlu Kol Tente',
+          description: 'Uzaktan kumanda ve sensörlü motorlu kol tente montajı',
+          url: 'https://yaztente.com.tr/urunler/tente',
+        },
+      },
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: 'Manuel Kol Tente',
+          description: 'Ekonomik ve kullanışlı manuel tente sistemleri',
+          url: 'https://yaztente.com.tr/urunler/tente',
+        },
+      },
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: 'Biyoklimatik Pergola',
+          description: 'Dört mevsim kullanım için motorlu alüminyum kanatlı pergola',
+          url: 'https://yaztente.com.tr/urunler/pergola',
+        },
+      },
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: 'Alüminyum Pergola',
+          description: 'Dayanıklı alüminyum profil pergola sistemleri',
+          url: 'https://yaztente.com.tr/urunler/pergola',
+        },
+      },
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: 'Kış Bahçesi',
+          description: 'Alüminyum profil ve ısıcam ile dört mevsim kış bahçesi',
+          url: 'https://yaztente.com.tr/urunler/kis-bahcesi',
+        },
+      },
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: 'Cam Balkon Sistemi',
+          description: 'Temperli güvenlik camlı balkon ve veranda sistemleri',
+          url: 'https://yaztente.com.tr/urunler/diger',
+        },
+      },
+    ],
+  },
+  sameAs: [
+    'https://yaztente.com.tr',
+  ],
+}
+
 const contactInfo = [
   {
     icon: Phone,
@@ -12,8 +142,8 @@ const contactInfo = [
   {
     icon: Mail,
     title: 'E-Posta',
-    lines: ['info@yazgolgelendirme.com', 'satis@yazgolgelendirme.com'],
-    href: 'mailto:info@yazgolgelendirme.com',
+    lines: ['satis@yaztente.com.tr'],
+    href: 'mailto:satis@yaztente.com.tr',
   },
   {
     icon: MapPin,
@@ -24,14 +154,19 @@ const contactInfo = [
   {
     icon: Clock,
     title: 'Çalışma Saatleri',
-    lines: ['Pazartesi - Cumartesi: 09:00 - 18:00', 'Pazar: Kapalı'],
+    lines: ['7 Gün 24 Saat Hizmetinizdeyiz'],
     href: null,
   },
 ]
 
 export default function IletisimPage() {
   return (
-    <div className="min-h-screen bg-cream">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <div className="min-h-screen bg-cream">
       {/* Header */}
       <div className="bg-dark pt-32 pb-16 relative overflow-hidden">
         <div className="absolute inset-0 opacity-20" style={{backgroundImage: 'url(https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1920&q=80)', backgroundSize: 'cover', backgroundPosition: 'center'}} />
@@ -135,5 +270,6 @@ export default function IletisimPage() {
         </div>
       </div>
     </div>
+    </>
   )
 }

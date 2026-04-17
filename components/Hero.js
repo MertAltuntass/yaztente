@@ -8,19 +8,19 @@ export default function Hero() {
 
   const slides = [
     {
-      bg: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1920&q=80',
+      bg: 'https://images.unsplash.com/photo-1562081208-418b67878d0f?w=1920&q=80',
       title: 'Hayalinizdeki',
       highlight: 'Gölge Sistemi',
       subtitle: 'Profesyonel tente, pergola ve güneşlik sistemleriyle yaşam alanlarınızı dönüştürüyoruz.',
     },
     {
-      bg: 'https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=1920&q=80',
+      bg: 'https://images.unsplash.com/photo-1527359443443-84a48aec73d2?w=1920&q=80',
       title: 'Modern Pergola',
       highlight: 'Çözümleri',
       subtitle: 'Biyoklimatik ve alüminyum pergola sistemleriyle outdoor alanlarınıza değer katıyoruz.',
     },
     {
-      bg: 'https://images.unsplash.com/photo-1593696140826-c58b021acf8b?w=1920&q=80',
+      bg: 'https://images.unsplash.com/photo-1696454596847-dda5f2dc0555?w=1920&q=80',
       title: 'Kaliteli Tente',
       highlight: 'Sistemleri',
       subtitle: 'Motorlu ve manuel tente seçenekleriyle hem estetik hem fonksiyonel çözümler sunuyoruz.',

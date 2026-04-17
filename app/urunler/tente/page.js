@@ -1,3 +1,9 @@
+export const metadata = {
+  title: 'Motorlu & Manuel Tente Sistemleri İstanbul | Yaz Tente',
+  description: 'İstanbul Beykoz\'da motorlu kol tente, manuel tente, sabit markiz ve dikey tente montajı. Otomatik tente fiyatları için ücretsiz keşif: 0546 770 25 83.',
+  keywords: 'motorlu tente İstanbul, otomatik tente fiyatları, balkon tentesi Beykoz, manuel kol tente, markiz tente montajı',
+}
+
 import Link from 'next/link'
 import { ArrowRight, CheckCircle, Phone, ChevronDown } from 'lucide-react'
 
@@ -33,7 +39,7 @@ const products = [
     image: 'https://images.unsplash.com/photo-1562081208-418b67878d0f?w=800&q=80',
     title: 'Motorlu Kol Tente',
     description: 'Uzaktan kumanda veya akıllı telefon uygulamasıyla tek tuşta açılıp kapanan motorlu kol tenteler; rüzgar ve güneş sensörü sayesinde hava koşullarına göre otomatik çalışır. Akıllı ev sistemleriyle entegre edilebilen bu tenteler, balkon ve teraslarınıza konfor ve modern bir görünüm katar.',
-    features: ['Motorlu Açma / Kapama', 'Rüzgar Sensörü', 'Güneş Sensörü', 'Uzaktan Kumanda', 'Akıllı Ev Uyumlu', '5 Yıl Garanti'],
+    features: ['Motorlu Açma / Kapama', 'Rüzgar Sensörü', 'Güneş Sensörü', 'Uzaktan Kumanda', 'Akıllı Ev Uyumlu', '1 Yıl Garanti'],
   },
   {
     image: 'https://images.unsplash.com/photo-1725794440337-a8b6035c3a62?w=800&q=80',
@@ -85,7 +91,7 @@ export default function TentePage() {
             <div key={p.title} className={`grid grid-cols-1 lg:grid-cols-2 gap-10 items-center ${i % 2 === 1 ? 'lg:flex-row-reverse' : ''}`}>
               <div className={`${i % 2 === 1 ? 'lg:order-2' : ''}`}>
                 <div className="overflow-hidden rounded-2xl shadow-xl">
-                  <img src={p.image} alt={p.title} className="w-full h-80 object-cover hover:scale-105 transition-transform duration-500" />
+                  <img src={p.image} alt={p.title} loading="lazy" className="w-full h-80 object-cover hover:scale-105 transition-transform duration-500" />
                 </div>
               </div>
               <div className={`${i % 2 === 1 ? 'lg:order-1' : ''}`}>
